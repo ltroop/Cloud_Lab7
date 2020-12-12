@@ -122,8 +122,8 @@ resource "aws_db_instance" "rds_db" {
   engine_version         = "5.7"
   instance_class         = "db.t2.micro"
   name                   = "dbtest"
-  username               = "testuser"
-  password               = "Lgfd!53Kjst34"
+  username               = "*****"
+  password               = "*****"
   publicly_accessible    = true
   skip_final_snapshot = true
   parameter_group_name   = "default.mysql5.7"
